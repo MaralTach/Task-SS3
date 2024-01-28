@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,14 +26,13 @@
 }
 .welcome {
   font-size: 50px;
-  font-family: 'Sansita', sans-serif;
+  font-family: "Sansita", sans-serif;
   color: #fff;
 }
 .line {
   border: 4px solid #e91515;
   width: 250px;
   border-radius: 15px;
-  
 }
 .navbar {
   font-size: 30px;
@@ -51,25 +50,24 @@
   transition: color 0.5s;
 }
 
-.navbar a span{
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #fff;
-    z-index: -1;
-    transition: 0.7s;
+.navbar a span {
+  width: 0;
+  height: 7px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #e91515;
+  z-index: -1;
+  transition: 0.7s;
 }
 .navbar a:hover {
-  color: black;
-
+  color: rgb(149, 142, 234);
 }
 
-.navbar a:hover span{
-    width: 100%;
-    border: #fff;
-    border-radius: 15px;
+.navbar a:hover span {
+  width: 100%;
+  border: #fff;
+  border-radius: 15px;
 }
 
 .gallery-container {
@@ -164,10 +162,10 @@ hr {
   height: 30px;
   width: 50px;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.icon-bar svg:hover{
-    color: #fff;
-    transform: translateY(-6px);
+.icon-bar svg:hover {
+  color: #fff;
+  transform: translateY(-6px);
 }
