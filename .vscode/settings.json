@@ -1,0 +1,10 @@
+{
+  "comment-divider.length": 40,
+  "comment-divider.mainHeaderAlign": "center",
+  "comment-divider.mainHeaderHeight": "block",
+  "comment-divider.mainHeaderTransform": "uppercase",
+  "comment-divider.subheaderAlign": "center",
+  "comment-divider.languagesMap": {},
+  "comment-divider.subheaderTransform": "uppercase",
+  "comment-divider.subheaderHeight": "line"
+}
