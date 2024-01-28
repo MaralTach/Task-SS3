@@ -103,7 +103,8 @@
   position: absolute;
   /* top: 0; */
   border-radius: 15px;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: zoom-in;
   background: linear-gradient(rgba(0, 0, 0, 0.5), #91c8e4);
   opacity: 0;
   transition: 1s;
@@ -121,6 +122,7 @@
   transform: translateX(-50%);
   transition: 1s;
   text-align: center;
+  cursor: zoom-in;
 }
 
 hr {
